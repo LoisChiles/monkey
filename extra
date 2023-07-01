@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        body {
+          background-image: url("https://scontent.fcrk3-2.fna.fbcdn.net/v/t39.30808-6/357142478_1607492783079182_4478113367021157162_n.jpg?stp=dst-jpg_p180x540&_nc_cat=105&cb=99be929b-59f725be&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFxwz8CliWR-JxgIZ5Ld3rHIM-capErAesgz5xqkSsB66o-uBVkLVJobdmmOjObDGhclz3L1ThoAsLOhvuFK10B&_nc_ohc=FXyIZFiyk94AX8DtrJn&_nc_zt=23&_nc_ht=scontent.fcrk3-2.fna&oh=00_AfAL8SY8dPD8Ti5BSjfig_4XSkodvmRT7ZLa_AzUbro1Mw&oe=64A3E3C1");
+          background-repeat: no-repeat;
+          background-size: cover; /* Adjust as needed */
+        }
+      </style>
+</head>
+<body>
+    <style>
+        .container {
+          position: relative;
+        }
+      
+        .image-link  {
+          position: relative;
+          height: 100px;
+          width: 100px;
+        
+        }
+      
+        .image-link:nth-child(1) {
+          top: 125px; /* Adjust as needed */
+          left: 50px; /* Adjust as needed */
+        }
+      
+        .image-link:nth-child(2) {
+          top: 125px; /* Adjust as needed */
+          left: 250px; /* Adjust as needed */
+        }
+      </style>
+      
+      <div class="container">
+        <a href="https://web.facebook.com/ChilesCon/" class="image-link">
+          <img src="data:image/png;base64,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" alt="Monkey 1" height="50px" height="50px">
+        </a>
+      
+        <a href="https://www.youtube.com/shorts/u75Q0nHuReI" class="image-link">
+          <img src="https://t3.ftcdn.net/jpg/05/66/26/98/360_F_566269813_8VisUzV5qqdN7nQ7De4FcVEVxnRuKh2E.jpg" alt="Monkey 2" height="50px" height="50px">
+        </a>
+      </div>
+      
+</body>
+
+</html>
